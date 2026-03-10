@@ -1,0 +1,50 @@
+body {
+background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+font-family: 'Poppins', sans-serif;
+color:white;
+}
+
+.title{
+text-align:center;
+font-size:50px;
+font-weight:700;
+margin-bottom:10px;
+animation: fadeIn 2s;
+}
+
+.subtitle{
+text-align:center;
+font-size:18px;
+opacity:0.8;
+margin-bottom:30px;
+}
+
+.card{
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+border-radius:20px;
+padding:25px;
+margin-top:20px;
+box-shadow:0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.skill{
+background:#00c9ff;
+padding:8px 15px;
+border-radius:15px;
+margin:5px;
+display:inline-block;
+}
+
+.missing{
+background:#ff4b5c;
+padding:8px 15px;
+border-radius:15px;
+margin:5px;
+display:inline-block;
+}
+
+@keyframes fadeIn{
+from{opacity:0}
+to{opacity:1}
+}

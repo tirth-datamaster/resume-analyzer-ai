@@ -1,0 +1,9 @@
+streamlit
+pdfplumber
+plotly
+pandas
+openai>=1.0.0
+streamlit
+plotly
+pdfplumber
+huggingface_hub
